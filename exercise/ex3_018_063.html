@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Learning 3 : Form ศิษย์เก่า</title>
+</head>
+<body>
+    <h1>แบบฟอร์มลงทะเบียนศิษย์เก่า IT + IS</h1>
+    <form action="http://localhost/" method="post">  <!--method get ไม่เป็นความลับ ใช้แบบเป็นความลับ ใช้ method post-->
+      
+  <label for="fullname">ชื่อ-สกุล:</label>
+  <input type="text" id="fullname" name="fullname">
+  <br>
+  <br>
+  
+  <label for="studentId">รหัสนักศึกษา:</label>
+  <input type="text" id="studentId" name="studentId">
+  <br>
+  <br>
+  
+  <label for="gender">เพศ:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">ชาย</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">หญิง</label>
+  <br>
+  <br>
+  
+  <label for="academicYear">ปีการศึกษาเข้าศึกษา:</label>
+  <input type="text" id="academicYear" name="academicYear"><br><br>
+  
+  <label for="address">ที่อยู่:</label>
+  <textarea id="address" name="address"></textarea><br><br>
+  
+  <label for="email">อีเมลล์:</label>
+  <input type="email" id="email" name="email"><br><br>
+  
+  <label for="phone">เบอร์โทรติดต่อ:</label>
+  <input type="tel" id="phone" name="phone"><br><br>
+  
+  <label for="curriculum">ชื่อหลักสูตร:</label>
+  <select id="curriculum" name="curriculum">
+    <option value="IT">IT</option>
+    <option value="IS">IS</option>
+  </select>
+  <br>
+  <br>
+  
+  <label for="occupation">อาชีพปัจจุบัน:</label>
+  <input type="text" 
+         id="occupation" 
+         name="occupation">
+         <br>
+         <br>
+  
+  <label for="workplace">สถานที่ทำงาน:</label>
+  <input type="text" 
+         id="workplace" 
+         name="workplace"
+         placeholder="ระบุชื่อบริษัท และที่อยู่" >
+    <br>
+    <br>
+  
+  
+  <label for="jobType">ประเภทงานที่ทำ:</label>
+  <select id="jobType" name="jobType">
+    <option value="Web Developer" >Web Developer</option>
+    <option value="SA">SA</option>
+    <option value="Graphic Design">Graphic Design</option>
+    <option value="Digital Marketing">Digital Marketing</option>
+  </select><br><br>
+  
+  <label for="photo">รูปถ่ายตนเอง:</label>
+  <input type="file" id="photo" name="photo"><br><br>
+  
+  <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
